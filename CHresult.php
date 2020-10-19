@@ -1,6 +1,6 @@
 <?php
 
-if($_SERVER['REQUEST_METHOD'] == 'GET' && $_GET['productNr'] != '') {
+if($_SERVER['REQUEST_METHOD'] == 'GET' && $_GET['productNr'] < 101 &&  $_GET['productNr'] != '' ) {
     $productNr = $_GET['productNr'];
 
    if($productNr % 15 == 0) {
@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && $_GET['productNr'] != '') {
     }
 
 }else{
-    $data = 'Please insert a number';
+    $data = 'Please insert a number from 1 to 100';
     echo $data;
 
 
