@@ -1,0 +1,35 @@
+body {
+    background-color: dimgrey;
+    font-family: monospace;
+
+}
+
+
+#hrf {
+    color: mediumblue;
+}
+
+
+.disp-cont {
+    color: ghostwhite;
+}
+
+
+#form-sec {
+    height: 186px;
+    width: 379px;
+    background-color: darkgray;
+    margin: auto;
+    margin-top: 40px;
+    padding: 13px;
+    border: 1px azure solid;
+    border-radius: 5px;
+
+}
+
+
+#result 
+{
+    margin-top: 50px;
+    margin-left: 56px;
+}
