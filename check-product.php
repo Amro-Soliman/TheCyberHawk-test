@@ -23,7 +23,7 @@ Enter a number within range of 1 to 100 in order to inspect the products.
 
   <label for="fname" ><b>Enter a product number:</b></label><br><br>
   <input type="text" id="productNr" name="productNr" placeholder="Product number">
-  <input type="submit" id='sub' name='sub' value="Submit">
+  <input type="submit" id='sub' name='sub' value="Inspect">
   <p id="result"> </p>
 
 </form>
